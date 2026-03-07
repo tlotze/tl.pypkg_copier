@@ -12,3 +12,10 @@ classifiers = [
 ]
 requires-python = ">={{ python_version }}"
 dependencies = []
+
+[build-system]
+build-backend = "uv_build"
+requires = ["uv_build"]
+
+[tool.uv.build-backend]
+module-name = "{{ package_name }}"
