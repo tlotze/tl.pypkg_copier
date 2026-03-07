@@ -3,5 +3,7 @@ name = "{{ package_name }}"
 version = "0.1.0"
 description = "{{ project_name }}: {{ project_description }}"
 readme = "README.rst"
+license = "MIT"
+license-files = ["LICENSE.txt"]
 requires-python = ">={{ python_version }}"
 dependencies = []
