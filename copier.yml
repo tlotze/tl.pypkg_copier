@@ -20,3 +20,6 @@ package_name:
 python_version:
   type: str
   default: 3.14
+
+_tasks:
+  - "uv lock"
