@@ -1,0 +1,6 @@
+@_:
+    just -l
+
+[group("qa")]
+code-analysis *ARGS:
+    prek run --all-files --hook-stage manual {{ "{{ ARGS }}" }}
