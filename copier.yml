@@ -7,6 +7,12 @@ project_name:
 project_description:
   type: str
 
+author:
+  type: str
+
+author_email:
+  type: str
+
 package_name:
   type: str
   default: "{{ project_name.lower().replace(' ', '_').replace('-', '_') }}"

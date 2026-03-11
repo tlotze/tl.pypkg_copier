@@ -1,6 +1,9 @@
 [project]
 name = "{{ package_name }}"
 version = "0.1.0"
+authors = [
+    {name="{{ author }}", email="{{ author_email }}"},
+]
 description = "{{ project_name }}: {{ project_description }}"
 readme = "README.rst"
 license = "MIT"
