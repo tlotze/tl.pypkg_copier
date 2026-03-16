@@ -14,6 +14,7 @@ repos:
       - id: check-case-conflict
       - id: check-executables-have-shebangs
       - id: check-merge-conflict
+        exclude: "\\.rst$"
       - id: check-symlinks
       - id: check-toml
       - id: detect-private-key
