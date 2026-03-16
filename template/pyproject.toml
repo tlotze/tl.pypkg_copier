@@ -6,9 +6,11 @@ authors = [
 ]
 description = "{{ project_name }}: {{ project_description }}"
 readme = "README.rst"
+keywords = []
 license = "MIT"
 license-files = ["LICENSE.txt"]
 classifiers = [
+    "Development Status :: 3 - Alpha",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: {{ python_version }}",
     "Programming Language :: Python",
@@ -18,6 +20,17 @@ dependencies = []
 
 [project.scripts]
 "{{ package_name }}" = "{{ package_name }}.main:main"
+
+[project.urls]
+homepage = ""
+source = ""
+github = ""
+download = ""
+changelog = ""
+releasenotes = ""
+documentation = ""
+issues = ""
+funding = ""
 
 [build-system]
 build-backend = "uv_build"
