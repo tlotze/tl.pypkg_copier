@@ -21,5 +21,15 @@ python_version:
   type: str
   default: 3.14
 
+source_url:
+  type: str
+
+github_user:
+  type: str
+
+github_url:
+  type: str
+  default: "{% if github_user %}https://github.com/{{ github_user }}/{{ package_name }}{% endif %}"
+
 _tasks:
   - "uv lock"

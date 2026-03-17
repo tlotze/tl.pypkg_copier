@@ -23,8 +23,8 @@ dependencies = []
 
 [project.urls]
 homepage = ""
-source = ""
-github = ""
+source = "{{ source_url }}"
+github = "{{ github_url }}"
 download = ""
 changelog = ""
 releasenotes = ""
