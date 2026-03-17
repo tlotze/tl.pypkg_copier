@@ -27,6 +27,7 @@ repos:
     rev: "v1.38.0"
     hooks:
       - id: yamllint
+        args: [-d, "{extends: default, rules: {line-length: {max: 110}}}"]
 
   - repo: https://github.com/rstcheck/rstcheck
     rev: "v6.2.5"
